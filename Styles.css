@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #007BFF; /* Blue background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Page content */
+h2 {
+    color: #007BFF;
+    font-size: 2em;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Contact Us section */
+.contact-us {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-us .map-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-info {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Blue background for all pages */
+div {
+    padding: 20px;
+}
+
+/* Links styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* For Blog Boxes (Health, Fitness, Food pages) */
+.blog-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.blog-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog-box h3 {
+    color: #007BFF;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.blog-box .meta {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+}
+
+.blog-box .meta span {
+    margin-right: 10px;
+}
+
+.blog-box .read-more {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #007BFF;
+}
+
+.blog-box .read-more:hover {
+    text-decoration: underline;
+}
